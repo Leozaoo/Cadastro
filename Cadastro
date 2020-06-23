@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Aba do candidato</title>
+</head>
+<body>
+    <h3>Cadastro</h3>
+        <Form action="">            <div>
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="Name">
+        </div>
+            <br>
+        <div>
+            <label for="email">Email:</label>
+            <input type="text" name="email" id="email"> 
+            <label for="Password"> - Password:</label>
+            <input type="text" name="Password" id="Password">
+        </div>
+        <br>
+        <div>
+            <Label for="Birthday">Data de nasimento: </Label>
+            <Input type="date" name="Birthday" id="Birthday">
+
+            <Label for="photo"> - Foto:</Label>
+            <input type="file" name="photo" id="photo">
+        </div>
+        <br>
+        <div>
+            <label for="Nationality"> Nacionalidade: </label>
+            <select name="Nationality" id="Nationality">
+            <option value="russian">Russa</option>
+            <option value="american">Americana</option>
+            <option value="brasilian">Brasileira</option>
+            </select> - 
+            Genero
+            <label for="Female">F</label>
+            <input type="radio" name="Gender" id="female" value="female">
+            <label for="male">M</label>
+            <input type="radio" name="Gender" id="female" value="male">
+        </div>
+        <br>
+        <div>
+             Suas principais qualidades:<br>
+            <label for="Int">Inteligência: </label>
+            <input type="checkbox" name="int" id="int">
+            <label for="res">Resiliência: </label>
+            <input type="checkbox" name="res" id="res">
+            <label for="pf">Preparo Físico: </label>
+            <input type="checkbox" name="pf" id="pf">
+            <label for="Int">Educação: </label>
+            <input type="checkbox" name="Edu" id="Edu">
+        </div>
+        <br>
+        <div>
+            <textarea name="description" id="description" cols="30" rows="10" placeholder="Porque você gostaria de se candidatar a vaga?"></textarea>
+        </div>
+        <br>
+       <div>
+           <input type="submit" value="criar">
+       </div>
+        </Form>
+</body>
+</html>
